@@ -1,0 +1,50 @@
+* {
+    text-align: center;
+    justify-content: center;
+}
+
+header {
+    background-color: #FF4501;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    margin: 0;
+    text-align: center;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.esquerda {
+    background-color: #1F90FF;
+    display: flex;
+    min-height: 84vh;
+    width: 33.3%;
+
+}
+
+.centro {
+    background-color: #483D8B;
+    display: flex;
+    min-height: 84vh;
+    width: 33.3%;
+}
+
+.direita {
+    background-color: #228A23;
+    display: flex;
+    min-height: 84vh;
+    width: 33.3%;
+}
+
+footer {
+    background-color: #FF1493;
+    display: flex;
+    flex-direction: column;
+}
